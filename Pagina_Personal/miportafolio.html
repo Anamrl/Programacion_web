@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			form label {
+			  margin-right: 15px; /* Agrega espacio horizontal entre las etiquetas dentro del formulario */
+			}
+			form input {
+			  margin-right: 15px; /* Agrega espacio horizontal entre las etiquetas dentro del formulario */
+			}
+
+			@font-face {
+				font-family: 'Josefine';
+				src: url(JosefinSans-Light.ttf) format("truetype");
+			}
+			input[type=submit]
+			{
+			color:rgb(244, 238, 204);
+			font-family: 'Josefine', sans-serif;
+			font-size: 30px;
+			background-color: rgb(34, 118, 127);
+			width: 200px;
+			height: 50px;
+			}
+		</style>
+	</head>
+	<body style="background-color: rgb(236, 236, 228); font-family: Josefine;">
+		
+		<center>
+			<h1>Portafolio</h1>
+			<table border=0 width=80%>
+				<tr>
+					<th width="50%" align="center" style="font-size: 25px; color: rgba(100, 141, 182, 0.915);">Cableado</th>
+				</tr>
+				<tr>
+					<td align="center"><img src="porta.jpg" width=300></a></td>
+				</tr>
+			</table>
+		</center>
+
+		<!--Formulario-->
+		<h1 style="text-align: center;">Formulario</h1>
+		<p>Permiteme conocerte y saber tu experiencia en esta pagina</p>
+		<form>
+			<center>
+		<fieldset>
+			<legend>Datos personales:</legend>
+			<!--Nombre(S)-->
+			<label for="fname">Nombre(s):</label>
+			<input type="text" id="fname" name="fname" value="" size="30">
+			<!--Apellido(S)-->
+			<label for="lname">Apellido(s):</label>
+			<input type="text" id="lname" name="lname" value="" size="30">
+			<!--Edad-->
+			<label for="edad">Edad:</label>
+			<input type="number" id="edad" name="edad" value=""><br><br>
+			<!--Correo-->
+			<label for="email">Correo:</label>
+			<input type="email" id="email" name="email" size="25">
+			<!--Numero telefonico-->
+			<label for="num">Numero telefonico:</label>
+			<input type="tel" id="num" name="num" value="" size="20">
+			<!--Cumpleaños-->
+			<label for="birthday">Fecha de cumplea&ntildeos:</label>
+			<input type="date" id="birthday" name="birthday">
+		</fieldset><br>
+	</center>
+		<fieldset>
+			<legend>Gustos pesonales:</legend>
+			<!--Gusto musical-->
+			<label for="gmusica">Gustos musicales:</label><br>
+			<input type="checkbox" id="gmusica" name="gmusica" value="">
+			<label for="vehicle1"> Pop</label>
+			<input type="checkbox" id="gmusica2" name="gmusica2" value="">
+			<label for="vehicle2"> Rock</label>
+			<input type="checkbox" id="gmusica3" name="gmusica3" value="">
+			<label for="vehicle3"> R&B</label><br><br>
+			<input type="checkbox" id="gmusica4" name="gmusica4" value="">
+			<label for="vehicle1"> Clasica</label>
+			<input type="checkbox" id="gmusica5" name="gmusica5" value="">
+			<label for="vehicle2"> Jazz</label>
+			<input type="checkbox" id="gmusica6" name="gmusica6" value="">
+			<label for="vehicle3"> Otro</label><br><br>
+			<!--Hobiee-->
+			<label for="hobbie">Hobbie:</label>
+			<input type="text" id="hobbie" name="hobbie" value="" size="30">
+			<!--Color favorito-->
+			<label for="favcolor">Selecciona tu color favorito:</label>
+			<input type="color" id="favcolor" name="favcolor" value="#ff0000" size="20">
+			<!--comida-->
+			<label for="comida">Comida favorita:</label>
+			<input type="text" id="comida" name="comida" value="" size="30">
+		</fieldset><br>
+		<fieldset>
+			<legend>Opinón sobre la pagina:</legend>
+			<label for="gmusica">¿Qué sección te gustó más?</label><br>
+			<input type="radio" id="inicio" name="fseccion" value="">
+			<label for="inicio">Inicio</label><br>
+			<input type="radio" id="contacto" name="fseccion" value="">
+			<label for="contacto">Contacto</label><br>
+			<input type="radio" id="acerca" name="fseccion" value="">
+			<label for="acerca">Acerca de mi</label>
+			<input type="radio" id="cv" name="fseccion" value="">
+			<label for="cv">CV</label><br>
+			<input type="radio" id="redes" name="fseccion" value="">
+			<label for="redes">Redes Sociales</label><br>
+			<input type="radio" id="portafolio" name="fseccion" value="">
+			<label for="portafolio">Mi portafolio</label>
+			<input type="radio" id="galeria" name="fseccion" value="">
+			<label for="galeria">Galeria</label><br><br>
+			<label for="gmusica">¿Con cuánto calificarias esta pagina?</label><br>
+			<label for="quantity">Del 1 al 10:</label>
+			<input type="number" id="quantity" name="quantity" min="1" max="10"><br><br>
+			<label for="recomendacion">¿Recomendarias esta pagina?</label>
+			<select id="recomendacion" name="recomendacion"> <br>
+			<option disabled=""selected="">Seleccione uno</option>
+			<option value="Si">Si</option>
+			<option value="No">No</option>
+			<option value="Quizas">Quizas</option>
+			</select><br><br>
+			<label for="nota">Sugerencias:</label><br><br>
+	        <textarea id="nota" name="nota" rows="4" cols="50" required></textarea>
+		</fieldset><br><br>
+		<center>
+		<input type="submit" value="Submit">
+		</center>
+		</form>
+	</body>
+</html>

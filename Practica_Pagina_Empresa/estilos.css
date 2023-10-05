@@ -1,0 +1,66 @@
+/* Fuentes agregadas*/
+@font-face {
+    font-family: 'Josefine';
+    src: url(JosefinSans-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Josefine-light';
+    src: url(JosefinSans-Light.ttf) format(truetype);
+}
+
+/* Estilo para encabezados h1 */
+h1{
+    font-family: 'Josefine';
+    margin-left: 50px;
+}
+h3{
+    font-family: 'Josefine';
+}
+
+/* Estilo para párrafos */
+p{
+    font-family: 'Josefine-light';
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+/* Estilo fuentes para tabla*/
+td{
+    font-family: 'Josefine-light';
+}
+th{
+    font-family: 'Josefine-light';
+}
+dl{
+    text-align: justify;
+    margin: 5%;
+}
+dt{
+    color: #5A8E92;
+    font-size: 20px;
+}
+label{
+    font-family: 'Josefine', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+legend{
+    font-family: 'Josefine', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input[type=submit]
+{
+color:rgb(244, 238, 204);
+font-family: 'Josefine', sans-serif;
+font-size: 30px;
+background-color: rgb(34, 118, 127);
+width: 200px;
+height: 50px;
+}
+dt{
+    font-family: 'Josefine', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+dd{
+    font-family: 'Josefine-light';
+}
